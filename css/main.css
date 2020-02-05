@@ -1,0 +1,73 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #EFEFEF;
+  color:white;
+  font-size: 22px;;
+}
+
+#container{
+  display:grid;
+  border: 2px solid red;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
+  grid-template-rows: calc(15vh - 10px)calc(15vh - 10px)calc(40vh - 10px)calc(15vh - 10px)calc(15vh - 10px);
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+}
+
+#container .title{
+}
+
+#container .img1{
+  padding: 9px;
+  border-radius: 5px;
+  grid-row: 3/4;
+  grid-column: 1/2;
+}
+#container .img1 img{
+width: 280px;
+height: 100%;
+}
+
+#container .img2{
+  padding: 9px;
+  border-radius: 5px;
+  grid-row: 3/4;
+  grid-column: 2/3;
+}
+
+#container .img2 img{
+width: 280px;
+height: 100%;
+}
+
+#container .img3{
+  padding: 9px;
+  border-radius: 5px;
+  grid-row: 3/4;
+  grid-column: 3/4;
+}
+
+#container .img3 img{
+width: 280px;
+height: 100%;
+}
+
+#container .img4{
+  padding: 9px;
+  border-radius: 5px;
+  grid-row: 3/4;
+  grid-column: 4/5;
+}
+
+#container .img4 img{
+width: 280px;
+height: 100%;
+}
+
+#container .pie{
+}
